@@ -7,7 +7,10 @@ General options:
   except=user list    Login or ids of users to not lock, comma separated
 
 Examples:
+  # Lock all users except for users 1,2,3, and 4
   rake redmine_lock_users:lock except=1,2,3,4
+
+  # Lock all users except for user 4, "admin", and "another"
   rake redmine_lock_users:lock except="admin,4, another"
 END_DESC
 

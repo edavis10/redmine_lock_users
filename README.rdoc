@@ -1,4 +1,4 @@
-= redmine_lock_users
+= Lock Users
 
 Adds a Rake task to lock all Redmine users.
 
